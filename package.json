@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "dev": "node --loader=ts-node/esm --env-file=.env --watch src/index.ts",
         "start": "node dist/index.js",
         "build": "tsc",
         "format": "prettier --write 'src/**/*' 'test/**/*'",
@@ -38,6 +39,7 @@
         "prettier": "^3.3.3",
         "prisma": "^5.19.0",
         "supertest": "^7.0.0",
+        "ts-node": "^10.9.2",
         "typescript": "^5.5.4"
     }
 }
