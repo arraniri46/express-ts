@@ -19,7 +19,7 @@ app.get('/', (req: Request, res: Response) => {
         data: [
             {
                 name: 'Garda Arraniri',
-                age: 20,
+                age: 22343,
             },
         ],
     })
