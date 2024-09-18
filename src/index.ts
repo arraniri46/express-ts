@@ -19,9 +19,9 @@ app.get('/', (req: Request, res: Response) => {
         data: [
             {
                 name: 'Garda Arraniri',
-                age: 22343,
-            },
-        ],
+                age: 22343
+            }
+        ]
     })
 })
 
