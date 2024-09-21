@@ -7,7 +7,7 @@
         "dev": "tsnd --respawn src/index.ts",
         "start": "node dist/index.js",
         "build": "tsc",
-        "format": "prettier --write 'src/**/*' 'test/**/*'",
+        "format": "prettier --write 'src/**/*' 'tests/**/*'",
         "test": "jest --runInBand",
         "lint": "eslint . --ext .ts"
     },
